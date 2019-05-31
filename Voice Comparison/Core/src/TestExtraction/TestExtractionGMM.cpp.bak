@@ -1,0 +1,262 @@
+#include <AI\GMM.h>
+#include <Extraction\ExtractionMFCC.h>
+#include <Util\File.h>
+#include <Util\LogUtil.h>
+#include <algorithm>
+int compare_value(std::pair<DATA_TYPE, std::string> const &a, std::pair<DATA_TYPE, std::string> const &b) {
+
+	if (a.first > b.first){
+		return 1;
+	}
+	else {
+		return 0;
+	}
+}
+
+void main(){
+	Logger::SetEnabled(false);
+#if 0
+	WavFile xa("..\\..\\..\\Binary\\Voice Comparasion\\Debug\\Data\\Data\\x\\xa.wav");
+	xa.Load();
+	MFCC mfccxa(&xa, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxa.Process();
+	mfccxa.Mfcc().Save("xa.xml");
+
+	WavFile xaj("..\\..\\..\\Binary\\Voice Comparasion\\Debug\\Data\\Data\\x\\xaj.wav");
+	xaj.Load();
+	MFCC mfccxaj(&xaj, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxaj.Process();
+	mfccxaj.Mfcc().Save("xaj.xml");
+
+
+	WavFile xaj1("..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\Xaj1.wav");
+	xaj1.Load();
+	MFCC mfccxaj1(&xaj1, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxaj1.Process();
+	mfccxaj1.Mfcc().Save("xaj1.xml");
+
+	WavFile xaj2("..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\Xaj2.wav");
+	xaj2.Load();
+	MFCC mfccxaj2(&xaj2, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxaj2.Process();
+	mfccxaj2.Mfcc().Save("xaj2.xml");
+
+	WavFile xaj3("..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\Xaj3.wav");
+	xaj3.Load();
+	MFCC mfccxaj3(&xaj3, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxaj3.Process();
+	mfccxaj3.Mfcc().Save("xaj3.xml");
+
+	WavFile xaj4("..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\Xaj4.wav");
+	xaj4.Load();
+	MFCC mfccxaj4(&xaj4, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxaj4.Process();
+	mfccxaj4.Mfcc().Save("xaj4.xml");
+
+
+	WavFile xaj5("..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\Xaj5.wav");
+	xaj5.Load();
+	MFCC mfccxaj5(&xaj5, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxaj5.Process();
+	mfccxaj5.Mfcc().Save("xaj5.xml");
+
+	WavFile xaj6("..\\..\\..\\Binary\\VTestExtraction\\Debug\\Xa\\Xaj6.wav");
+	xaj6.Load();
+	MFCC mfccxaj6(&xaj6, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxaj6.Process();
+	mfccxaj6.Mfcc().Save("xaj6.xml");
+
+	WavFile xaq("..\\..\\..\\Binary\\Voice Comparasion\\Debug\\Data\\Data\\x\\xaq.wav");
+	xaq.Load();
+	MFCC mfccxaq(&xaq, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxaq.Process();
+	mfccxaq.Mfcc().Save("xaq.xml");
+
+	WavFile xas("..\\..\\..\\Binary\\Voice Comparasion\\Debug\\Data\\Data\\x\\xas.wav");
+	xas.Load();
+	MFCC mfccxas(&xas, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxas.Process();
+	mfccxas.Mfcc().Save("xas.xml");
+
+	WavFile xax("..\\..\\..\\Binary\\Voice Comparasion\\Debug\\Data\\Data\\x\\xax.wav");
+	xax.Load();
+	MFCC mfccxax(&xax, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxax.Process();
+	mfccxax.Mfcc().Save("xax.xml");
+
+
+	WavFile xaz("..\\..\\..\\Binary\\Voice Comparasion\\Debug\\Data\\Data\\x\\xaz.wav");
+	bool result4 = xaz.Load();
+	MFCC mfccxaz(&xaz, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	mfccxaz.Process();
+	mfccxaz.Mfcc().Save("xaz.xml");
+
+
+	
+	Matrix mfcc2Out;
+	mfcc2Out.Load("MFCC_TA_2.xml");
+	Matrix mfcc1Out;
+	mfcc1Out.Load("MFCC_TA_1.xml");
+
+	Matrix mfcc3Out;
+	mfcc3Out.Load("MFCC_TOI_1.xml");
+	Matrix mfcc4Out;
+	mfcc4Out.Load("MFCC_TOI_2.xml");
+	GMM gmmxaj1;
+	gmmxaj1.Load("GMM_TA_1.xml");
+
+	DATA_TYPE res8 = gmm1.LogProbability(mfcc1Out);
+	DATA_TYPE res9 = gmm1.LogProbability(mfcc2Out);
+	DATA_TYPE res10 = gmm1.LogProbability(mfcc3Out);
+	DATA_TYPE res11 = gmm2.LogProbability(mfcc4Out);
+
+	DATA_TYPE res12 = gmm2.LogProbability(mfcc1Out);
+	DATA_TYPE res13 = gmm2.LogProbability(mfcc2Out);
+	DATA_TYPE res14 = gmm2.LogProbability(mfcc3Out);
+	DATA_TYPE res15 = gmm2.LogProbability(mfcc4Out);
+	/*
+	GMM gmm1(3, COV_TYPE_02);
+	bool result1 = gmm1.DoEM(mfcc1Out);
+	gmm1.Save("GMM_TA_1.xml");
+
+	GMM gmm2(3, COV_TYPE_02);
+	bool result2 = gmm2.DoEM(mfcc2Out);
+	gmm2.Save("GMM_TOI_1.xml");
+
+	*/
+	//DATA_TYPE out2 = gmm.LogProbability(mfcc2Out);
+	//DATA_TYPE out3 = gmm.LogProbability(mfcc3Out);
+
+
+#else
+
+// Get MFCC matrix
+#if 1
+std::vector<std::string> list = File::GetListFilesInDir(L"..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\audio\\*.wav");
+
+for(COUNT_TYPE i  =0; i < list.size(); i++){
+	std::string path = "..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\audio\\" + list[i];
+	std::string out = "..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\xml\\" + list[i] + ".xml";
+	WavFile xa(const_cast <char *>(path.c_str()));
+	bool result = xa.Load();
+	if (result)
+		printf("Load File: %s OK\n", path.c_str());
+	else {
+		printf("Load File: %s FAILED\n", path.c_str());
+	}
+	MFCC mfccxa(&xa, 0.015f, 0.005f, 22, 0.0f, 2500.0f, 12, 2, true);
+	result = mfccxa.Process();
+	if (result)
+		printf("MFCC File: %s OK\n", path.c_str());
+	else
+		printf("MFCC File: %s FAILED\n", path.c_str());
+	mfccxa.Mfcc().Save((const_cast <char *>(out.c_str())));
+}
+#endif
+#if 0
+std::vector<std::string> list = File::GetListFilesInDir(L"..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\xml\\*.xml");
+for (COUNT_TYPE i = 0; i < list.size(); i++){
+	Matrix mfcc;
+	std::string path = "..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\xml\\" + list[i];
+	std::string out = "..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\gmm\\" + list[i];
+	mfcc.Load(const_cast <char *>(path.c_str()));
+	GMM gmm(3, COV_TYPE_02);
+	gmm.DoEM(mfcc);
+	gmm.Save(const_cast <char *>(out.c_str()));
+
+}
+
+#endif
+#if 1
+GMM gmm(3, COV_TYPE_02);
+Matrix xaj;
+xaj.Load("..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\xml\\xaj.wav.xml");
+gmm.DoEM(xaj);
+gmm.Save("..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\gmm\\xaj.wav.xml");
+
+std::vector<std::pair<DATA_TYPE, std::string>> outlist;
+
+std::vector<std::string> list2 = File::GetListFilesInDir(L"..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\audio\\*.wav");
+for (COUNT_TYPE i = 0; i < list2.size(); i++){
+	Matrix mfcc;
+	std::string path = "..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\xml\\" + list2[i];
+	std::string out = "..\\..\\..\\Binary\\TestExtraction\\Debug\\Xa\\gmm\\" + list2[i];
+	mfcc.Load(const_cast <char *>(path.c_str()));
+	
+	DATA_TYPE log = gmm.LogProbability(mfcc);
+	printf("%d - Log %s -  %f\n", i, list2[i].c_str(), log);
+	std::pair<DATA_TYPE, std::string> pair;
+	pair.first = log;
+	pair.second = list2[i];
+	outlist.push_back(pair);
+}
+
+std::sort(outlist.begin(), outlist.end(), compare_value);
+
+Logger::SetEnabled(true);
+for (COUNT_TYPE i = 0; i < list.size(); i++){
+	std::pair<DATA_TYPE, std::string> pair = outlist[i];
+	PRINT(" %s - %f\n", pair.second.c_str(), pair.first);
+}
+printf("end");
+#endif
+#endif
+#if 0
+	Matrix mfccxa;
+	mfccxa.Load("xa.xml");
+	Matrix mfccxaj;
+	mfccxaj.Load("xaj.xml");
+	Matrix mfccxaq;
+	mfccxaq.Load("xaq.xml");
+	Matrix mfccxas;
+	mfccxas.Load("xas.xml");
+	Matrix mfccxax;
+	mfccxax.Load("xax.xml");
+	Matrix mfccxaz;
+	mfccxaz.Load("xaz.xml");
+
+
+	//GMM gmmxaj(3, COV_TYPE_02);
+	//bool result1 = gmmxaj.DoEM(mfccxaj);
+	//gmmxaj.Save("gmmxaj.xml");
+
+	GMM gmmxaj;
+	gmmxaj.Load("gmmxaj.xml");
+
+	DATA_TYPE res1 = gmmxaj.LogProbability(mfccxa);
+	DATA_TYPE res2 = gmmxaj.LogProbability(mfccxaj);
+	DATA_TYPE res3 = gmmxaj.LogProbability(mfccxaq);
+	DATA_TYPE res4 = gmmxaj.LogProbability(mfccxas);
+
+	DATA_TYPE res5 = gmmxaj.LogProbability(mfccxax);
+	DATA_TYPE res6 = gmmxaj.LogProbability(mfccxaz);
+	//DATA_TYPE res7 = gmmxaj.LogProbability(mfcc3Out);
+	//DATA_TYPE res8 = gmmxaj.LogProbability(mfcc4Out);
+
+
+	Matrix mfcc2Out;
+	mfcc2Out.Load("MFCC_TA_2.xml");
+	Matrix mfcc1Out;
+	mfcc1Out.Load("MFCC_TA_1.xml");
+
+	Matrix mfcc3Out;
+	mfcc3Out.Load("MFCC_TOI_1.xml");
+	Matrix mfcc4Out;
+	mfcc4Out.Load("MFCC_TOI_2.xml");
+	GMM gmm1;
+	gmm1.Load("GMM_TA_1.xml");
+	GMM gmm2;
+	gmm2.Load("GMM_TOI_1.xml");
+
+	DATA_TYPE res8 = gmm1.LogProbability(mfcc1Out);
+	DATA_TYPE res9 = gmm1.LogProbability(mfcc2Out);
+	DATA_TYPE res10 = gmm1.LogProbability(mfcc3Out);
+	DATA_TYPE res11 = gmm2.LogProbability(mfcc4Out);
+
+	DATA_TYPE res12 = gmm2.LogProbability(mfcc1Out);
+	DATA_TYPE res13 = gmm2.LogProbability(mfcc2Out);
+	DATA_TYPE res14 = gmm2.LogProbability(mfcc3Out);
+	DATA_TYPE res15 = gmm2.LogProbability(mfcc4Out);
+
+#endif
+}

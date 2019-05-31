@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TrainFilesCarrier" targetNamespace="http://tempuri.org/TrainFilesCarrier.xsd" xmlns:mstns="http://tempuri.org/TrainFilesCarrier.xsd" xmlns="http://tempuri.org/TrainFilesCarrier.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TrainFilesCarrier" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TrainFilesCarrier" msprop:Generator_UserDSName="TrainFilesCarrier">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TrainFile" msprop:Generator_TableClassName="TrainFileDataTable" msprop:Generator_TableVarName="tableTrainFile" msprop:Generator_RowChangedName="TrainFileRowChanged" msprop:Generator_TablePropName="TrainFile" msprop:Generator_RowDeletingName="TrainFileRowDeleting" msprop:Generator_RowChangingName="TrainFileRowChanging" msprop:Generator_RowEvHandlerName="TrainFileRowChangeEventHandler" msprop:Generator_RowDeletedName="TrainFileRowDeleted" msprop:Generator_RowClassName="TrainFileRow" msprop:Generator_UserTableName="TrainFile" msprop:Generator_RowEvArgName="TrainFileRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Word" msprop:Generator_ColumnVarNameInTable="columnWord" msprop:Generator_ColumnPropNameInRow="Word" msprop:Generator_ColumnPropNameInTable="WordColumn" msprop:Generator_UserColumnName="Word" type="xs:string" minOccurs="0" />
+              <xs:element name="Path" msprop:Generator_ColumnVarNameInTable="columnPath" msprop:Generator_ColumnPropNameInRow="Path" msprop:Generator_ColumnPropNameInTable="PathColumn" msprop:Generator_UserColumnName="Path" type="xs:string" minOccurs="0" />
+              <xs:element name="Start" msprop:Generator_ColumnVarNameInTable="columnStart" msprop:Generator_ColumnPropNameInRow="Start" msprop:Generator_ColumnPropNameInTable="StartColumn" msprop:Generator_UserColumnName="Start" type="xs:int" minOccurs="0" />
+              <xs:element name="End" msprop:Generator_ColumnVarNameInTable="columnEnd" msprop:Generator_ColumnPropNameInRow="End" msprop:Generator_ColumnPropNameInTable="EndColumn" msprop:Generator_UserColumnName="End" type="xs:int" minOccurs="0" />
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:TrainFile" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

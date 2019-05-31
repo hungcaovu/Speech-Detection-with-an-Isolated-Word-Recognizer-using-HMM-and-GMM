@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6597DE6-E1C3-40A9-AD27-64909802909F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UC</RootNamespace>
+    <AssemblyName>UC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseIntermediateOutputPath>../../../Build/UC/obj</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>../../../Build/UC/Debug/</OutputPath>
+    <DefineConstants>TRACE;DEBUG;FRAMEWORKMENUS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseIntermediateOutputPath>../../../Build/UC/obj</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>../../../Build/UC/Release/</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\DevExpress\DevExpress.Data.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\DevExpress\DevExpress.Printing.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\DevExpress\DevExpress.Utils.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\DevExpress\DevExpress.XtraEditors.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\DevExpress\DevExpress.XtraGrid.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\DevExpress\DevExpress.XtraLayout.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\DevExpress\DevExpress.XtraPrinting.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio">
+      <HintPath>..\Dll\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmVietViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AmVietViewControl.Designer.cs">
+      <DependentUpon>AmVietViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUtil.cs" />
+    <Compile Include="LineViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LineViewer.Designer.cs">
+      <DependentUpon>LineViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MfccViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MfccViewer.Designer.cs">
+      <DependentUpon>MfccViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewWaveViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewWaveViewer.Designer.cs">
+      <DependentUpon>NewWaveViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Recoder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recoder.Designer.cs">
+      <DependentUpon>Recoder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectShowChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectShowChart.Designer.cs">
+      <DependentUpon>SelectShowChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Spectrum.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Spectrum.Designer.cs">
+      <DependentUpon>Spectrum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaveViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WaveViewer.Designer.cs">
+      <DependentUpon>WaveViewer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AmVietViewControl.resx">
+      <DependentUpon>AmVietViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LineViewer.resx">
+      <DependentUpon>LineViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MfccViewer.resx">
+      <DependentUpon>MfccViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewWaveViewer.resx">
+      <DependentUpon>NewWaveViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recoder.resx">
+      <DependentUpon>Recoder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectShowChart.resx">
+      <DependentUpon>SelectShowChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spectrum.resx">
+      <DependentUpon>Spectrum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaveViewer.resx">
+      <DependentUpon>WaveViewer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\Event.SelectedTimeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietCarrier+AmTietDataTable1.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietCarrier+AmTietRow.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietCarrier+AmTietRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietCarrier+AmTietRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietCarrier.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietDataSet+AmTietDataTable.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietDataSet+AmTietRow.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietDataSet+AmTietRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietDataSet+AmTietRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Object.AmTietDataSet.datasource" />
+    <None Include="Properties\DataSources\Object.Event.ListWordsChangeEventArgs.datasource" />
+    <None Include="Properties\DataSources\Object.Event.ListWordsChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Object.Event.PlayWaveStopEventArgs.datasource" />
+    <None Include="Properties\DataSources\Object.Event.PlayWaveStopEventHandler.datasource" />
+    <None Include="Properties\DataSources\Object.Event.SelectedChartEventArgs.datasource" />
+    <None Include="Properties\DataSources\Object.Event.SelectedChartEventHandler.datasource" />
+    <None Include="Properties\DataSources\Object.Event.SettingChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Object.Event.SettingChangedEventHandler.datasource" />
+    <None Include="Properties\DataSources\Object.Event.SettingEventArgs.datasource" />
+    <None Include="Properties\DataSources\Object.Event.SettingEventHandler.datasource" />
+    <None Include="Properties\DataSources\Object.Event.TimeSelectedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Object.Event.TimeSelectedEventHandler.datasource" />
+    <None Include="Properties\DataSources\UC.Enum.Constant.datasource" />
+    <None Include="Resources\Recording.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Porting\CToCSharp\Extraction Wrapper\Extraction Wrapper.vcxproj">
+      <Project>{f00eec80-3a66-44b5-865c-75e4df9cbb28}</Project>
+      <Name>05_Extraction Wrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\09_Model.csproj">
+      <Project>{d7ca7783-bcd0-4449-842b-b8ecdcd5deb6}</Project>
+      <Name>09_Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Object\08_Object.csproj">
+      <Project>{f5490c4a-9ad7-4d9e-bfbd-c505a13a8d52}</Project>
+      <Name>08_Object</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\arrow.JPG" />
+    <Content Include="Resources\arrowleft.JPG" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

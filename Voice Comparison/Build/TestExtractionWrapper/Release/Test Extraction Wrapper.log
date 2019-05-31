@@ -1,0 +1,12 @@
+﻿Build started 27/03/2016 9:19:19 CH.
+     1>Project "G:\Project\Voice Comparison\Porting\CToCSharp\Test Extraction Wrapper\Test Extraction Wrapper.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"..\..\..\Build\TestExtractionWrapper\Release\06_Test Extraction Wrapper.pch" /Fo"..\..\..\Build\TestExtractionWrapper\Release\\" /Fd"..\..\..\Build\TestExtractionWrapper\Release\vc120.pdb" /TP /FU"G:\Project\Voice Comparison\Porting\CToCSharp\Extraction Wrapper\../../../../Build/Output/Release/ExtractionWrapper.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib stdafx.cpp
+         stdafx.cpp
+     1>stdafx.cpp : fatal error C1192: #using failed on 'G:\Project\Voice Comparison\Porting\CToCSharp\Extraction Wrapper\../../../../Build/Output/Release/ExtractionWrapper.dll'
+                 'The system cannot find the file specified.'
+     1>Done Building Project "G:\Project\Voice Comparison\Porting\CToCSharp\Test Extraction Wrapper\Test Extraction Wrapper.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.39

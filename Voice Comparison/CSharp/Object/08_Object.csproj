@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5490C4A-9AD7-4D9E-BFBD-C505A13A8D52}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Object</RootNamespace>
+    <AssemblyName>Object</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseIntermediateOutputPath>../../../Build/Object/obj</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>../../../Build/Object/Debug/</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <BaseIntermediateOutputPath>../../../Build/Object/obj</BaseIntermediateOutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>../../../Build/Object/Release/</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\Dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmTiet.cs" />
+    <Compile Include="ColorMap.cs" />
+    <Compile Include="Constant.cs" />
+    <Compile Include="AmTietCarrier.cs">
+      <DependentUpon>AmTietCarrier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AmTietCarrier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AmTietCarrier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Define.cs" />
+    <Compile Include="Enum\ColorStyle.cs" />
+    <Compile Include="Enum\EnumSampleRate.cs" />
+    <Compile Include="Enum\FormTag.cs" />
+    <Compile Include="Enum\LogLevel.cs" />
+    <Compile Include="Enum\RBDSelected.cs" />
+    <Compile Include="Event\ListWordsChangeEventArgs.cs" />
+    <Compile Include="Event\ListWordsChangeEventHandler.cs" />
+    <Compile Include="Event\PlayWaveStopEventArgs.cs" />
+    <Compile Include="Event\PlayWaveStopEventHandler.cs" />
+    <Compile Include="Event\RecallEntryEventArgs.cs" />
+    <Compile Include="Event\RecallEntryEventHandler.cs" />
+    <Compile Include="Event\SelectAmTietEventArgs.cs" />
+    <Compile Include="Event\SelectAmTietEventHandler.cs" />
+    <Compile Include="Event\SelectedChartEventArgs.cs" />
+    <Compile Include="Event\SelectedChartEventHandler.cs" />
+    <Compile Include="Event\SelectedTimeEventHandler.cs" />
+    <Compile Include="Event\SettingChangedEventArgs.cs" />
+    <Compile Include="Event\SettingChangedEventHandler.cs" />
+    <Compile Include="Event\SettingEventArgs.cs" />
+    <Compile Include="Event\SettingEventHandler.cs" />
+    <Compile Include="Event\TimeSelectedEventArgs.cs" />
+    <Compile Include="Event\TimeSelectedEventHandler.cs" />
+    <Compile Include="LogUtil.cs" />
+    <Compile Include="MfccOptions.cs" />
+    <Compile Include="MouseSelectedTime.cs" />
+    <Compile Include="PaserWord.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecoderSound.cs" />
+    <Compile Include="ScoreMath.cs" />
+    <Compile Include="SelectedChartOption.cs" />
+    <None Include="AmTietCarrier.xsc">
+      <DependentUpon>AmTietCarrier.xsd</DependentUpon>
+    </None>
+    <None Include="AmTietCarrier.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AmTietCarrier.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="AmTietCarrier.xss">
+      <DependentUpon>AmTietCarrier.xsd</DependentUpon>
+    </None>
+    <Compile Include="TrainFilesCarrier.cs">
+      <DependentUpon>TrainFilesCarrier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrainFilesCarrier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrainFilesCarrier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Transform.cs" />
+    <Compile Include="VCDir.cs" />
+    <None Include="TrainFilesCarrier.xsc">
+      <DependentUpon>TrainFilesCarrier.xsd</DependentUpon>
+    </None>
+    <None Include="TrainFilesCarrier.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrainFilesCarrier.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TrainFilesCarrier.xss">
+      <DependentUpon>TrainFilesCarrier.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Porting\CToCSharp\Extraction Wrapper\Extraction Wrapper.vcxproj">
+      <Project>{f00eec80-3a66-44b5-865c-75e4df9cbb28}</Project>
+      <Name>05_Extraction Wrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

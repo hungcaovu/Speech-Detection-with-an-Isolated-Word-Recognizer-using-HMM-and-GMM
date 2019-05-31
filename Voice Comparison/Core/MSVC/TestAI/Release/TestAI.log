@@ -1,0 +1,48 @@
+﻿Build started 26/03/2016 2:28:01 CH.
+     1>Project "G:\Project\Voice Comparison\Core\MSVC\TestAI\TestAI.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../Core/inc /I../../../../Library/tinyxml /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\TestAI\ExampleCluster.cpp ..\..\src\TestAI\TestGMM.cpp ..\..\src\TestAI\TestCluster.cpp ..\..\src\TestAI\TestHMM.cpp ..\..\src\TestAI\TestIdx.cpp
+         ExampleCluster.cpp
+         TestGMM.cpp
+         TestCluster.cpp
+         TestHMM.cpp
+         TestIdx.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Project\Voice Comparison\Release\02_TestAI.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Project\Voice Comparison\Release\02_TestAI.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Project\Voice Comparison\Release\02_TestAI.lib" /MACHINE:X86 /SAFESEH Release\ExampleCluster.obj
+         Release\TestGMM.obj
+         Release\TestCluster.obj
+         Release\TestHMM.obj
+         Release\TestIdx.obj
+         G:\Project\Build\Output\Release\tinyxml.lib
+         G:\Project\Build\Output\Release\UtilLib.lib
+         G:\Project\Build\Output\Release\AILib.lib
+     1>TestGMM.obj : error LNK2005: _main already defined in ExampleCluster.obj
+     1>TestCluster.obj : error LNK2005: _main already defined in ExampleCluster.obj
+     1>TestHMM.obj : error LNK2005: _main already defined in ExampleCluster.obj
+     1>TestIdx.obj : error LNK2005: _main already defined in ExampleCluster.obj
+     1>UtilLib.lib(LogUtil.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in ExampleCluster.obj
+     1>UtilLib.lib(LogUtil.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in ExampleCluster.obj
+     1>UtilLib.lib(Vector.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in ExampleCluster.obj
+     1>UtilLib.lib(Vector.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in ExampleCluster.obj
+     1>UtilLib.lib(Matrix.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in ExampleCluster.obj
+     1>UtilLib.lib(Matrix.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in ExampleCluster.obj
+     1>UtilLib.lib(MathUtil.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in ExampleCluster.obj
+     1>UtilLib.lib(MathUtil.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in ExampleCluster.obj
+     1>UtilLib.lib(VectorIdx.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in ExampleCluster.obj
+     1>UtilLib.lib(VectorIdx.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in ExampleCluster.obj
+     1>UtilLib.lib(MatrixIdx.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in ExampleCluster.obj
+     1>UtilLib.lib(MatrixIdx.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in ExampleCluster.obj
+     1>AILib.lib(GMM.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in ExampleCluster.obj
+     1>AILib.lib(GMM.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in ExampleCluster.obj
+     1>AILib.lib(Clustering.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in ExampleCluster.obj
+     1>AILib.lib(Clustering.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in ExampleCluster.obj
+     1>UtilLib.lib(DistanceUtil.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in ExampleCluster.obj
+     1>UtilLib.lib(DistanceUtil.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in ExampleCluster.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>MSVCRT.lib(cinitexe.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>G:\Project\Voice Comparison\Release\02_TestAI.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "G:\Project\Voice Comparison\Core\MSVC\TestAI\TestAI.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.13

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AmTietCarrier" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AmTietCarrier" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AmTietCarrier" msprop:Generator_UserDSName="AmTietCarrier">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AmTiet" msprop:Generator_TableClassName="AmTietDataTable" msprop:Generator_TableVarName="tableAmTiet" msprop:Generator_RowChangedName="AmTietRowChanged" msprop:Generator_TablePropName="AmTiet" msprop:Generator_RowDeletingName="AmTietRowDeleting" msprop:Generator_RowChangingName="AmTietRowChanging" msprop:Generator_RowEvHandlerName="AmTietRowChangeEventHandler" msprop:Generator_RowDeletedName="AmTietRowDeleted" msprop:Generator_RowClassName="AmTietRow" msprop:Generator_UserTableName="AmTiet" msprop:Generator_RowEvArgName="AmTietRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AmDau" msprop:Generator_ColumnVarNameInTable="columnAmDau" msprop:Generator_ColumnPropNameInRow="AmDau" msprop:Generator_ColumnPropNameInTable="AmDauColumn" msprop:Generator_UserColumnName="AmDau" type="xs:string" minOccurs="0" />
+              <xs:element name="AmDem" msprop:Generator_ColumnVarNameInTable="columnAmDem" msprop:Generator_ColumnPropNameInRow="AmDem" msprop:Generator_ColumnPropNameInTable="AmDemColumn" msprop:Generator_UserColumnName="AmDem" type="xs:string" minOccurs="0" />
+              <xs:element name="AmChinh" msprop:Generator_ColumnVarNameInTable="columnAmChinh" msprop:Generator_ColumnPropNameInRow="AmChinh" msprop:Generator_ColumnPropNameInTable="AmChinhColumn" msprop:Generator_UserColumnName="AmChinh" type="xs:string" minOccurs="0" />
+              <xs:element name="AmCuoi" msprop:Generator_ColumnVarNameInTable="columnAmCuoi" msprop:Generator_ColumnPropNameInRow="AmCuoi" msprop:Generator_ColumnPropNameInTable="AmCuoiColumn" msprop:Generator_UserColumnName="AmCuoi" type="xs:string" minOccurs="0" />
+              <xs:element name="Thanh" msprop:Generator_ColumnVarNameInTable="columnThanh" msprop:Generator_ColumnPropNameInRow="Thanh" msprop:Generator_ColumnPropNameInTable="ThanhColumn" msprop:Generator_UserColumnName="Thanh" type="xs:string" minOccurs="0" />
+              <xs:element name="Path" msprop:Generator_ColumnVarNameInTable="columnPath" msprop:Generator_ColumnPropNameInRow="Path" msprop:Generator_ColumnPropNameInTable="PathColumn" msprop:Generator_UserColumnName="Path" type="xs:string" minOccurs="0" />
+              <xs:element name="Vietnamese" msprop:Generator_ColumnVarNameInTable="columnVietnamese" msprop:Generator_ColumnPropNameInRow="Vietnamese" msprop:Generator_ColumnPropNameInTable="VietnameseColumn" msprop:Generator_UserColumnName="Vietnamese" type="xs:string" minOccurs="0" />
+              <xs:element name="Van" msprop:Generator_ColumnVarNameInTable="columnVan" msprop:Generator_ColumnPropNameInRow="Van" msprop:Generator_ColumnPropNameInTable="VanColumn" msprop:Generator_UserColumnName="Van" type="xs:string" minOccurs="0" />
+              <xs:element name="Unicode" msprop:Generator_ColumnVarNameInTable="columnUnicode" msprop:Generator_ColumnPropNameInRow="Unicode" msprop:Generator_ColumnPropNameInTable="UnicodeColumn" msprop:Generator_UserColumnName="Unicode" type="xs:string" minOccurs="0" />
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Edited" msprop:Generator_ColumnVarNameInTable="columnEdited" msprop:Generator_ColumnPropNameInRow="Edited" msprop:Generator_ColumnPropNameInTable="EditedColumn" msprop:Generator_UserColumnName="Edited" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,250 @@
+<Train>
+  <TrainFiles>
+    <File Word="Mot" Path="Mot\16_12_2015_11_50_22_CH.wav" Start="18199" End="21010" ID="0" />
+    <File Word="Mot" Path="Mot\16_12_2015_11_50_39_CH.wav" Start="12880" End="16720" ID="1" />
+    <File Word="Mot" Path="Mot\16_12_2015_11_51_04_CH.wav" Start="7371" End="10504" ID="2" />
+    <File Word="Hai" Path="Hai\16_12_2015_11_51_14_CH.wav" Start="9744" End="12376" ID="3" />
+    <File Word="Hai" Path="Hai\16_12_2015_11_51_36_CH.wav" Start="9520" End="12132" ID="4" />
+    <File Word="Hai" Path="Hai\16_12_2015_11_51_52_CH.wav" Start="6587" End="9375" ID="5" />
+    <File Word="Ba" Path="Ba\16_12_2015_11_52_10_CH.wav" Start="10693" End="13103" ID="6" />
+    <File Word="Ba" Path="Ba\16_12_2015_11_52_31_CH.wav" Start="7364" End="9892" ID="7" />
+    <File Word="Ba" Path="Ba\16_12_2015_11_52_40_CH.wav" Start="8816" End="11377" ID="8" />
+    <File Word="Bon" Path="Bon\16_12_2015_11_53_10_CH.wav" Start="6600" End="9117" ID="9" />
+    <File Word="Bon" Path="Bon\16_12_2015_11_53_21_CH.wav" Start="9900" End="12589" ID="10" />
+    <File Word="Bon" Path="Bon\16_12_2015_11_53_38_CH.wav" Start="11330" End="13934" ID="11" />
+    <File Word="Nam" Path="Nam\17_12_2015_12_01_10_SA.wav" Start="9899" End="13529" ID="12" />
+    <File Word="Nam" Path="Nam\17_12_2015_12_01_57_SA.wav" Start="13750" End="16720" ID="13" />
+    <File Word="Nam" Path="Nam\17_12_2015_12_02_16_SA.wav" Start="10010" End="12980" ID="14" />
+    <File Word="Truc" Path="Truc\17_12_2015_12_03_29_SA.wav" Start="7039" End="8360" ID="15" />
+    <File Word="Truc" Path="Truc\17_12_2015_12_04_11_SA.wav" Start="9789" End="10999" ID="16" />
+    <File Word="Truc" Path="Truc\17_12_2015_12_04_48_SA.wav" Start="12209" End="13530" ID="17" />
+    <File Word="Tung" Path="Tung\17_12_2015_12_05_07_SA.wav" Start="18918" End="21551" ID="18" />
+    <File Word="Tung" Path="Tung\17_12_2015_12_05_26_SA.wav" Start="29920" End="32531" ID="19" />
+    <File Word="Lan" Path="Lan\17_12_2015_12_06_19_SA.wav" Start="8030" End="12759" ID="20" />
+    <File Word="Lan" Path="Lan\17_12_2015_12_06_32_SA.wav" Start="7809" End="12319" ID="21" />
+    <File Word="Lan" Path="Lan\17_12_2015_12_06_42_SA.wav" Start="6270" End="11110" ID="22" />
+    <File Word="Xuan" Path="Xuan\17_12_2015_12_07_30_SA.wav" Start="5190" End="9350" ID="23" />
+    <File Word="Xuan" Path="Xuan\17_12_2015_12_07_49_SA.wav" Start="6650" End="11219" ID="24" />
+    <File Word="Xuan" Path="Xuan\17_12_2015_12_08_14_SA.wav" Start="9592" End="13639" ID="25" />
+    <File Word="Van" Path="Van\17_12_2015_12_10_52_SA.wav" Start="10670" End="14520" ID="26" />
+    <File Word="Van" Path="Van\17_12_2015_12_11_05_SA.wav" Start="9570" End="13639" ID="27" />
+    <File Word="Van" Path="Van\17_12_2015_12_11_17_SA.wav" Start="7039" End="10889" ID="28" />
+    <File Word="Anh" Path="Anh\17_12_2015_12_18_48_SA.wav" Start="10218" End="13001" ID="29" />
+    <File Word="Anh" Path="Anh\17_12_2015_12_18_56_SA.wav" Start="9398" End="12285" ID="30" />
+    <File Word="Anh" Path="Anh\17_12_2015_12_20_15_SA.wav" Start="14629" End="17741" ID="31" />
+    <File Word="Hai" Path="Hai\15_03_2016_7_58_52_SA.wav" Start="7369" End="10780" ID="32" />
+    <File Word="Hai" Path="Hai\15_03_2016_7_59_13_SA.wav" Start="7565" End="11962" ID="33" />
+    <File Word="Bon" Path="Bon\15_03_2016_7_59_44_SA.wav" Start="10604" End="14516" ID="34" />
+    <File Word="Truc" Path="Truc\15_03_2016_8_00_36_SA.wav" Start="5576" End="6692" ID="35" />
+    <File Word="Tung" Path="Tung\15_03_2016_8_00_57_SA.wav" Start="6335" End="8483" ID="36" />
+    <File Word="Hai" Path="Hai\15_03_2016_8_02_24_SA.wav" Start="4597" End="9569" ID="37" />
+    <File Word="Ba" Path="Ba\15_03_2016_8_03_07_SA.wav" Start="4940" End="8664" ID="38" />
+    <File Word="Bon" Path="Bon\15_03_2016_8_03_32_SA.wav" Start="9889" End="13533" ID="39" />
+    <File Word="Ba" Path="Ba\18_03_2016_7_22_56_SA.wav" Start="13928" End="17808" ID="40" />
+    <File Word="Ba" Path="Ba\18_03_2016_7_23_33_SA.wav" Start="9244" End="13729" ID="41" />
+    <File Word="Ba" Path="Ba\18_03_2016_7_23_46_SA.wav" Start="8486" End="12526" ID="42" />
+    <File Word="Ba" Path="Ba\18_03_2016_7_24_05_SA.wav" Start="12198" End="16288" ID="43" />
+    <File Word="Bon" Path="Bon\18_03_2016_7_24_36_SA.wav" Start="8139" End="11549" ID="44" />
+    <File Word="Bon" Path="Bon\18_03_2016_7_24_57_SA.wav" Start="7590" End="10560" ID="45" />
+    <File Word="Bon" Path="Bon\18_03_2016_7_25_07_SA.wav" Start="7370" End="10450" ID="46" />
+    <File Word="Bon" Path="Bon\18_03_2016_7_25_23_SA.wav" Start="18039" End="20789" ID="47" />
+    <File Word="Bon" Path="Bon\18_03_2016_7_25_34_SA.wav" Start="8909" End="12649" ID="48" />
+    <File Word="Ba" Path="Ba\18_03_2016_7_25_57_SA.wav" Start="11439" End="14959" ID="49" />
+    <File Word="Ba" Path="Ba\18_03_2016_7_26_07_SA.wav" Start="31239" End="35749" ID="50" />
+    <File Word="Hai" Path="Hai\18_03_2016_7_26_38_SA.wav" Start="6546" End="10790" ID="51" />
+    <File Word="Hai" Path="Hai\18_03_2016_7_26_52_SA.wav" Start="13016" End="18351" ID="52" />
+    <File Word="Hai" Path="Hai\18_03_2016_7_27_13_SA.wav" Start="6934" End="10669" ID="53" />
+    <File Word="Hai" Path="Hai\18_03_2016_7_27_36_SA.wav" Start="5906" End="9709" ID="54" />
+    <File Word="Mot" Path="Mot\18_03_2016_7_28_26_SA.wav" Start="10010" End="12650" ID="55" />
+    <File Word="Mot" Path="Mot\18_03_2016_7_28_36_SA.wav" Start="8322" End="11879" ID="56" />
+    <File Word="Mot" Path="Mot\18_03_2016_7_28_48_SA.wav" Start="8323" End="11671" ID="57" />
+    <File Word="Mot" Path="Mot\18_03_2016_7_29_01_SA.wav" Start="13288" End="16940" ID="58" />
+    <File Word="Mot" Path="Mot\18_03_2016_7_29_12_SA.wav" Start="8047" End="11118" ID="59" />
+    <File Word="Mot" Path="Mot\18_03_2016_7_29_30_SA.wav" Start="13372" End="16217" ID="60" />
+    <File Word="Mot" Path="Mot\18_03_2016_7_29_44_SA.wav" Start="9078" End="12075" ID="61" />
+    <File Word="Nam" Path="Nam\18_03_2016_7_30_29_SA.wav" Start="13191" End="17226" ID="62" />
+    <File Word="Nam" Path="Nam\18_03_2016_7_30_44_SA.wav" Start="13158" End="17391" ID="63" />
+    <File Word="Nam" Path="Nam\18_03_2016_7_30_56_SA.wav" Start="14649" End="17930" ID="64" />
+    <File Word="Nam" Path="Nam\18_03_2016_7_31_13_SA.wav" Start="11042" End="15318" ID="65" />
+    <File Word="Nam" Path="Nam\18_03_2016_7_31_26_SA.wav" Start="12429" End="15950" ID="66" />
+    <File Word="Nam" Path="Nam\18_03_2016_7_31_36_SA.wav" Start="11581" End="15276" ID="67" />
+    <File Word="Nam" Path="Nam\18_03_2016_7_31_51_SA.wav" Start="7859" End="11679" ID="68" />
+    <File Word="Anh" Path="Anh\18_03_2016_7_32_25_SA.wav" Start="8380" End="11173" ID="69" />
+    <File Word="Anh" Path="Anh\18_03_2016_7_32_33_SA.wav" Start="6789" End="9723" ID="70" />
+    <File Word="Anh" Path="Anh\18_03_2016_7_32_41_SA.wav" Start="9570" End="12699" ID="71" />
+    <File Word="Anh" Path="Anh\18_03_2016_7_33_00_SA.wav" Start="7810" End="10410" ID="72" />
+    <File Word="Anh" Path="Anh\18_03_2016_7_33_10_SA.wav" Start="7623" End="10417" ID="73" />
+    <File Word="Anh" Path="Anh\18_03_2016_7_33_21_SA.wav" Start="9049" End="11878" ID="74" />
+    <File Word="Anh" Path="Anh\18_03_2016_7_33_28_SA.wav" Start="10229" End="12650" ID="75" />
+    <File Word="Tung" Path="Tung\18_03_2016_7_34_01_SA.wav" Start="6928" End="9573" ID="76" />
+    <File Word="Tung" Path="Tung\18_03_2016_7_34_09_SA.wav" Start="8359" End="11056" ID="77" />
+    <File Word="Tung" Path="Tung\18_03_2016_7_34_19_SA.wav" Start="12540" End="15838" ID="78" />
+    <File Word="Tung" Path="Tung\18_03_2016_7_34_30_SA.wav" Start="12868" End="15694" ID="79" />
+    <File Word="Tung" Path="Tung\18_03_2016_7_35_15_SA.wav" Start="8580" End="11070" ID="80" />
+    <File Word="Tung" Path="Tung\18_03_2016_7_35_24_SA.wav" Start="9239" End="11789" ID="81" />
+    <File Word="Tung" Path="Tung\18_03_2016_7_35_46_SA.wav" Start="12209" End="14901" ID="82" />
+    <File Word="Truc" Path="Truc\18_03_2016_7_36_10_SA.wav" Start="7260" End="8469" ID="83" />
+    <File Word="Truc" Path="Truc\18_03_2016_7_36_17_SA.wav" Start="11110" End="12429" ID="84" />
+    <File Word="Truc" Path="Truc\18_03_2016_7_36_25_SA.wav" Start="8690" End="9899" ID="85" />
+    <File Word="Truc" Path="Truc\18_03_2016_7_36_37_SA.wav" Start="7259" End="8470" ID="86" />
+    <File Word="Truc" Path="Truc\18_03_2016_7_36_48_SA.wav" Start="8030" End="9239" ID="87" />
+    <File Word="Truc" Path="Truc\18_03_2016_7_36_55_SA.wav" Start="9350" End="10559" ID="88" />
+    <File Word="Van" Path="Van\18_03_2016_7_37_34_SA.wav" Start="6930" End="10230" ID="89" />
+    <File Word="Van" Path="Van\18_03_2016_7_37_41_SA.wav" Start="8690" End="11855" ID="90" />
+    <File Word="Van" Path="Van\18_03_2016_7_37_50_SA.wav" Start="7652" End="10970" ID="91" />
+    <File Word="Van" Path="Van\18_03_2016_7_38_00_SA.wav" Start="6311" End="9725" ID="92" />
+    <File Word="Van" Path="Van\18_03_2016_7_38_24_SA.wav" Start="7992" End="11458" ID="93" />
+    <File Word="Van" Path="Van\18_03_2016_7_38_40_SA.wav" Start="7638" End="10449" ID="94" />
+    <File Word="Van" Path="Van\18_03_2016_7_38_49_SA.wav" Start="6479" End="9569" ID="95" />
+    <File Word="Xuan" Path="Xuan\18_03_2016_7_39_25_SA.wav" Start="4729" End="8359" ID="96" />
+    <File Word="Xuan" Path="Xuan\18_03_2016_7_39_32_SA.wav" Start="5635" End="8690" ID="97" />
+    <File Word="Xuan" Path="Xuan\18_03_2016_7_39_42_SA.wav" Start="5830" End="9350" ID="98" />
+    <File Word="Xuan" Path="Xuan\18_03_2016_7_39_50_SA.wav" Start="4730" End="8250" ID="99" />
+    <File Word="Xuan" Path="Xuan\18_03_2016_7_39_58_SA.wav" Start="4730" End="8580" ID="100" />
+    <File Word="Xuan" Path="Xuan\18_03_2016_7_40_05_SA.wav" Start="13617" End="17490" ID="101" />
+    <File Word="Xuan" Path="Xuan\18_03_2016_7_40_25_SA.wav" Start="5253" End="8139" ID="102" />
+    <File Word="Lan" Path="Lan\19_03_2016_11_29_30_CH.wav" Start="8030" End="12429" ID="103" />
+    <File Word="Lan" Path="Lan\19_03_2016_11_29_49_CH.wav" Start="8800" End="13200" ID="104" />
+    <File Word="Lan" Path="Lan\19_03_2016_11_30_17_CH.wav" Start="12195" End="17437" ID="105" />
+    <File Word="Lan" Path="Lan\19_03_2016_11_31_27_CH.wav" Start="8491" End="12256" ID="106" />
+    <File Word="Lan" Path="Lan\19_03_2016_11_32_02_CH.wav" Start="10779" End="14629" ID="107" />
+    <File Word="Lan" Path="Lan\19_03_2016_11_43_51_CH.wav" Start="21230" End="25519" ID="108" />
+    <File Word="Lan" Path="Lan\19_03_2016_11_44_09_CH.wav" Start="7920" End="11769" ID="109" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_44_36_CH.wav" Start="4180" End="8579" ID="110" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_44_48_CH.wav" Start="4979" End="10120" ID="111" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_45_09_CH.wav" Start="4571" End="9788" ID="112" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_45_23_CH.wav" Start="2710" End="7260" ID="113" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_45_37_CH.wav" Start="4286" End="8910" ID="114" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_46_12_CH.wav" Start="9195" End="13969" ID="115" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_46_26_CH.wav" Start="5067" End="9899" ID="116" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_46_57_CH.wav" Start="6640" End="11549" ID="117" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_48_28_CH.wav" Start="4202" End="8580" ID="118" />
+    <File Word="Sau" Path="Sau\19_03_2016_11_48_43_CH.wav" Start="12992" End="17820" ID="119" />
+    <File Word="Bay" Path="Bay\19_03_2016_11_59_07_CH.wav" Start="6857" End="10120" ID="120" />
+    <File Word="Bay" Path="Bay\19_03_2016_11_59_42_CH.wav" Start="6929" End="10889" ID="121" />
+    <File Word="Bay" Path="Bay\19_03_2016_11_59_51_CH.wav" Start="3960" End="7260" ID="122" />
+    <File Word="Bay" Path="Bay\20_03_2016_12_00_06_SA.wav" Start="4839" End="8250" ID="123" />
+    <File Word="Bay" Path="Bay\20_03_2016_12_00_41_SA.wav" Start="15510" End="18700" ID="124" />
+    <File Word="Bay" Path="Bay\20_03_2016_12_00_52_SA.wav" Start="6160" End="9679" ID="125" />
+    <File Word="Bay" Path="Bay\20_03_2016_12_01_00_SA.wav" Start="6270" End="9790" ID="126" />
+    <File Word="Bay" Path="Bay\20_03_2016_12_01_05_SA.wav" Start="9790" End="13530" ID="127" />
+    <File Word="Bay" Path="Bay\20_03_2016_12_01_16_SA.wav" Start="4949" End="8690" ID="128" />
+    <File Word="Bay" Path="Bay\20_03_2016_12_01_22_SA.wav" Start="8250" End="11660" ID="129" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_02_19_SA.wav" Start="7919" End="10559" ID="130" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_02_31_SA.wav" Start="7149" End="10120" ID="131" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_02_37_SA.wav" Start="9350" End="12320" ID="132" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_02_44_SA.wav" Start="9129" End="12099" ID="133" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_02_49_SA.wav" Start="8359" End="11330" ID="134" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_03_04_SA.wav" Start="14740" End="17820" ID="135" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_03_37_SA.wav" Start="9239" End="12209" ID="136" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_03_43_SA.wav" Start="7810" End="10780" ID="137" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_03_53_SA.wav" Start="9019" End="12320" ID="138" />
+    <File Word="Tam" Path="Tam\20_03_2016_12_03_59_SA.wav" Start="13529" End="16702" ID="139" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_04_29_SA.wav" Start="6596" End="9139" ID="140" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_04_36_SA.wav" Start="6964" End="9544" ID="141" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_04_46_SA.wav" Start="7922" End="10654" ID="142" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_04_52_SA.wav" Start="4463" End="7094" ID="143" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_05_09_SA.wav" Start="4882" End="7468" ID="144" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_05_25_SA.wav" Start="7429" End="10087" ID="145" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_06_40_SA.wav" Start="5609" End="7809" ID="146" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_06_48_SA.wav" Start="7308" End="9673" ID="147" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_08_19_SA.wav" Start="5447" End="7809" ID="148" />
+    <File Word="Chin" Path="Chin\20_03_2016_12_08_33_SA.wav" Start="6304" End="8763" ID="149" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_08_50_SA.wav" Start="6537" End="9970" ID="150" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_09_00_SA.wav" Start="11988" End="16295" ID="151" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_09_18_SA.wav" Start="10937" End="14537" ID="152" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_09_28_SA.wav" Start="14225" End="17782" ID="153" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_09_40_SA.wav" Start="8758" End="12492" ID="154" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_13_32_SA.wav" Start="7165" End="10449" ID="155" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_13_40_SA.wav" Start="10644" End="14112" ID="156" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_14_20_SA.wav" Start="4070" End="7370" ID="157" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_14_29_SA.wav" Start="8758" End="11949" ID="158" />
+    <File Word="Muoi" Path="Muoi\20_03_2016_12_14_44_SA.wav" Start="5803" End="9052" ID="159" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_28_45_SA.wav" Start="7306" End="10604" ID="160" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_29_09_SA.wav" Start="5386" End="9165" ID="161" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_29_33_SA.wav" Start="6668" End="10014" ID="162" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_30_22_SA.wav" Start="7208" End="10444" ID="163" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_30_36_SA.wav" Start="8359" End="11660" ID="164" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_30_49_SA.wav" Start="6379" End="9723" ID="165" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_30_59_SA.wav" Start="6489" End="9941" ID="166" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_31_16_SA.wav" Start="8140" End="11329" ID="167" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_31_45_SA.wav" Start="15174" End="18603" ID="168" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_1_32_08_SA.wav" Start="7242" End="10591" ID="169" />
+    <File Word="Xanh" Path="Xanh\20_03_2016_1_36_29_SA.wav" Start="4009" End="9103" ID="170" />
+    <File Word="Xanh" Path="Xanh\20_03_2016_1_36_52_SA.wav" Start="4249" End="8286" ID="171" />
+    <File Word="Xanh" Path="Xanh\20_03_2016_1_40_10_SA.wav" Start="5189" End="9674" ID="172" />
+    <File Word="Xanh" Path="Xanh\20_03_2016_1_40_31_SA.wav" Start="3782" End="9020" ID="173" />
+    <File Word="Xanh" Path="Xanh\20_03_2016_1_41_42_SA.wav" Start="6050" End="12101" ID="174" />
+    <File Word="Xanh" Path="Xanh\20_03_2016_1_41_59_SA.wav" Start="15101" End="21299" ID="175" />
+    <File Word="Xanh" Path="Xanh\20_03_2016_1_43_17_SA.wav" Start="3879" End="9583" ID="176" />
+    <File Word="Xanh" Path="Xanh\20_03_2016_1_43_44_SA.wav" Start="1108" End="5657" ID="177" />
+    <File Word="Xanh" Path="Xanh\20_03_2016_1_44_35_SA.wav" Start="14982" End="20522" ID="178" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_47_56_SA.wav" Start="2618" End="8981" ID="179" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_48_52_SA.wav" Start="3433" End="9718" ID="180" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_49_11_SA.wav" Start="4267" End="12245" ID="181" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_49_25_SA.wav" Start="3824" End="12583" ID="182" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_49_52_SA.wav" Start="2793" End="9854" ID="183" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_50_12_SA.wav" Start="3257" End="10381" ID="184" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_50_44_SA.wav" Start="4849" End="10649" ID="185" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_51_02_SA.wav" Start="2182" End="8082" ID="186" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_51_14_SA.wav" Start="206" End="6065" ID="187" />
+    <File Word="Vanx" Path="Vanx\20_03_2016_1_51_28_SA.wav" Start="2845" End="10135" ID="188" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_51_41_SA.wav" Start="2987" End="8962" ID="189" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_52_23_SA.wav" Start="19825" End="24442" ID="190" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_52_41_SA.wav" Start="6276" End="10384" ID="191" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_52_51_SA.wav" Start="4413" End="8984" ID="192" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_53_10_SA.wav" Start="2444" End="5906" ID="193" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_53_25_SA.wav" Start="3129" End="7397" ID="194" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_53_42_SA.wav" Start="3249" End="7646" ID="195" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_53_51_SA.wav" Start="2683" End="7791" ID="196" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_54_00_SA.wav" Start="3065" End="6543" ID="197" />
+    <File Word="Vanf" Path="Vanf\20_03_2016_1_54_14_SA.wav" Start="4785" End="8357" ID="198" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_54_50_SA.wav" Start="3937" End="8904" ID="199" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_55_08_SA.wav" Start="3637" End="7452" ID="200" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_55_17_SA.wav" Start="5400" End="10213" ID="201" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_55_29_SA.wav" Start="3039" End="6647" ID="202" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_55_38_SA.wav" Start="3797" End="7899" ID="203" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_55_52_SA.wav" Start="19460" End="23915" ID="204" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_56_12_SA.wav" Start="3750" End="6983" ID="205" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_56_24_SA.wav" Start="3928" End="7452" ID="206" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_56_41_SA.wav" Start="4089" End="8499" ID="207" />
+    <File Word="Vans" Path="Vans\20_03_2016_1_56_56_SA.wav" Start="3782" End="9602" ID="208" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_57_18_SA.wav" Start="4770" End="10340" ID="209" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_57_26_SA.wav" Start="4534" End="10117" ID="210" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_57_35_SA.wav" Start="2276" End="6699" ID="211" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_57_49_SA.wav" Start="1564" End="6854" ID="212" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_58_02_SA.wav" Start="2240" End="7914" ID="213" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_58_19_SA.wav" Start="3609" End="9240" ID="214" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_58_30_SA.wav" Start="5423" End="10046" ID="215" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_58_39_SA.wav" Start="2877" End="8910" ID="216" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_58_54_SA.wav" Start="4338" End="9175" ID="217" />
+    <File Word="Vanj" Path="Vanj\20_03_2016_1_59_03_SA.wav" Start="5680" End="11220" ID="218" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_8_59_55_SA.wav" Start="4839" End="7370" ID="219" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_9_00_13_SA.wav" Start="4597" End="7507" ID="220" />
+    <File Word="Anhs" Path="Anhs\20_03_2016_9_00_27_SA.wav" Start="7500" End="10450" ID="221" />
+  </TrainFiles>
+  <HMMModels>
+    <Model Word="Mot" Path="Mot.xml" />
+    <Model Word="Hai" Path="Hai.xml" />
+    <Model Word="Ba" Path="Ba.xml" />
+    <Model Word="Bon" Path="Bon.xml" />
+    <Model Word="Nam" Path="Nam.xml" />
+    <Model Word="Truc" Path="Truc.xml" />
+    <Model Word="Tung" Path="Tung.xml" />
+    <Model Word="Lan" Path="Lan.xml" />
+    <Model Word="Xuan" Path="Xuan.xml" />
+    <Model Word="Van" Path="Van.xml" />
+    <Model Word="Anh" Path="Anh.xml" />
+    <Model Word="Sau" Path="Sau.xml" />
+    <Model Word="Bay" Path="Bay.xml" />
+    <Model Word="Tam" Path="Tam.xml" />
+    <Model Word="Chin" Path="Chin.xml" />
+    <Model Word="Muoi" Path="Muoi.xml" />
+    <Model Word="Anhs" Path="Anhs.xml" />
+    <Model Word="Xanh" Path="Xanh.xml" />
+    <Model Word="Vanx" Path="Vanx.xml" />
+    <Model Word="Vanf" Path="Vanf.xml" />
+    <Model Word="Vans" Path="Vans.xml" />
+    <Model Word="Vanj" Path="Vanj.xml" />
+  </HMMModels>
+</Train>

@@ -1,0 +1,31 @@
+﻿Build started 27/03/2016 9:20:29 CH.
+     1>Project "G:\Project\Voice Comparison\Core\MSVC\Test Extraction\Test Extraction.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\..\Build\TestExtraction\Release\\" /Fd"..\..\..\Build\TestExtraction\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\src\TestExtraction\DCT Test.cpp" "..\..\src\TestExtraction\FFT Test.cpp" "..\..\src\TestExtraction\HMel Test.cpp" "..\..\src\TestExtraction\Math Test.cpp" "..\..\src\TestExtraction\Mel Test.cpp" "..\..\src\TestExtraction\Pitch Test.cpp" ..\..\src\TestExtraction\TestExtraction.cpp ..\..\src\TestExtraction\TestExtractionGMM.cpp ..\..\src\TestExtraction\TestHMM.cpp ..\..\src\TestExtraction\TestLibXtract.cpp ..\..\src\TestExtraction\Trainning.cpp
+         DCT Test.cpp
+     1>..\..\src\TestExtraction\DCT Test.cpp(4): fatal error C1083: Cannot open include file: 'Extraction\ExtractionMFCC.h': No such file or directory
+         FFT Test.cpp
+     1>..\..\src\TestExtraction\FFT Test.cpp(3): fatal error C1083: Cannot open include file: 'Extraction\FFT.h': No such file or directory
+         HMel Test.cpp
+     1>..\..\src\TestExtraction\HMel Test.cpp(4): fatal error C1083: Cannot open include file: 'Extraction\ExtractionMFCC.h': No such file or directory
+         Math Test.cpp
+     1>..\..\src\TestExtraction\Math Test.cpp(4): fatal error C1083: Cannot open include file: 'Common.h': No such file or directory
+         Mel Test.cpp
+     1>..\..\src\TestExtraction\Mel Test.cpp(4): fatal error C1083: Cannot open include file: 'Common.h': No such file or directory
+         Pitch Test.cpp
+     1>..\..\src\TestExtraction\Pitch Test.cpp(10): fatal error C1083: Cannot open include file: 'Extraction\Pitch.h': No such file or directory
+         TestExtraction.cpp
+     1>..\..\src\TestExtraction\TestExtraction.cpp(4): fatal error C1083: Cannot open include file: 'fixdpt_fp.h': No such file or directory
+         TestExtractionGMM.cpp
+     1>..\..\src\TestExtraction\TestExtractionGMM.cpp(1): fatal error C1083: Cannot open include file: 'AI\GMM.h': No such file or directory
+         TestHMM.cpp
+     1>..\..\src\TestExtraction\TestHMM.cpp(2): fatal error C1083: Cannot open include file: 'Util\LogUtil.h': No such file or directory
+         TestLibXtract.cpp
+     1>..\..\src\TestExtraction\TestLibXtract.cpp(41): fatal error C1083: Cannot open include file: 'core/smileCommon.hpp': No such file or directory
+         Trainning.cpp
+     1>..\..\src\TestExtraction\Trainning.cpp(2): fatal error C1083: Cannot open include file: 'Util\LogUtil.h': No such file or directory
+     1>Done Building Project "G:\Project\Voice Comparison\Core\MSVC\Test Extraction\Test Extraction.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.64
