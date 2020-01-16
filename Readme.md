@@ -9,11 +9,10 @@ Languages:
     - CRL porting C/C++ libraries to DLL for C#.
 
 Structure: 
+
     1. Binary:
        Output after building the code for both mode release and debug
-
     2. Library: tinyXml lib for caching mfcc and model to file (i saved models, mfcc features to xml file.)
-
     3. Voice Comparison (the name ofproject doest not make sense, since from the beggining my   thesis project was comparison, after discussing with instructors, i change the goal of project to Speed detection.  )
         - Core folder: MFCC Extraction, HMM and GMM model (train and evaluate), Viterbi, ...
         * inc: *.h files
