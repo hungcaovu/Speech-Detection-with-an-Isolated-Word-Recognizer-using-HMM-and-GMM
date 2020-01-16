@@ -8,7 +8,7 @@ Languages:
     
     - C/C++ for DSP core processing (read audio files, mfcc processing, hmm, gmm, ...)
     - C# for the GUI
-    - CRL porting C/C++ libraries to DLL for C#.
+    - CLR porting C/C++ libraries to DLL for C#.
 
 Structure: 
 
@@ -24,7 +24,7 @@ Structure:
             * DLL: external libs, DevExpress for GUI, log4net for logging, NAudio for takking sound from the mic and save to wav file.
             * Model: Objects for GUI
             * View: Application GUI
-        - Porting: Build and wrapper the DLL from c/c++ libs, so that the C# application could call C/C++ object through CRL DLL.
+        - Porting: Build and wrapper the DLL from c/c++ libs, so that the C# application could call C/C++ object through CLR DLL.
         
 
 Building:
