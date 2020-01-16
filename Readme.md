@@ -4,6 +4,7 @@ Project: SPEECH DETECTION WITH AN ISOLATED WORD RECOGNIZER USING HMM AND GMM
           Recognize word from microphone.
 
 Languages: 
+    
     - C/C++ for DSP core processing (read audio files, mfcc processing, hmm, gmm, ...)
     - C# for the GUI
     - CRL porting C/C++ libraries to DLL for C#.
@@ -27,7 +28,7 @@ Structure:
 
 Building:
     You should use visual studio 2015 for this project.
-    Install DevExpress v15 (i already attached the dll file)
+    Install DevExpress v15 (i already attached the dll files)
 
     Open the project: Voice Comparison/Voice Comparison.sln
 
