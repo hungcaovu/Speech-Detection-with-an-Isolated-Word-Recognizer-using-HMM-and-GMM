@@ -1,6 +1,7 @@
 
 
 Project: SPEECH DETECTION WITH AN ISOLATED WORD RECOGNIZER USING HMM AND GMM
+          
           Recognize word from microphone.
 
 Languages: 
